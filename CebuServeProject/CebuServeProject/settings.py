@@ -55,7 +55,7 @@ ROOT_URLCONF = 'CebuServeProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["templates/CebuServe"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
